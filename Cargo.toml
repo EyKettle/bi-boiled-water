@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = ["crates/*", "examples/*"]
+exclude = ["crates/trace", "assets", "docs"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+authors = ["Boiled Water Contributors"]
+license = "Apache-2.0"
+repository = "https://github.com/EyKettle/bi-boiled-water"
+homepage = "https://github.com/EyKettle/bi-boiled-water"
+documentation = "https://github.com/EyKettle/bi-boiled-water"
+readme = "README.md"
+description = """
+Boiled Water (boilw): A Bionic Intelligence (BI) architecture.
+Sanitized Logic for a Silicon World.
+"""
+keywords = ["bi", "bionic-intelligence", "logic", "boolean", "no-std"]
+categories = ["science::robotics", "algorithms", "no-std"]

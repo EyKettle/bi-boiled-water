@@ -1,0 +1,8 @@
+[package]
+name = "simple-flag"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+console = "0.16.2"
+ptree = "0.5.2"
